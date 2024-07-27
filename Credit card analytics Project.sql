@@ -48,7 +48,7 @@ group by city
 having count(gold_amount)> 0
 order by gold_ratio
 
---5- write a query to print 3 columns:  city, highest_expense_type , lowest_expense_type (example format : Delhi , bills, Fuel)
+--5- Printing 3 columns:  city, highest_expense_type , lowest_expense_type (example format : Delhi , bills, Fuel)
 
 select distinct exp_type from credit_card_transactions;
 
